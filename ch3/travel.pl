@@ -26,6 +26,7 @@ travel(X,Y):-
     travel(Z,Y).
 
 %?- travel(valmont,raglan).
+%@ true .
 
 travel(X,Y,go(X,Y)):-
     goDirect(X,Y).
